@@ -1,0 +1,651 @@
+@charset "utf-8";
+
+/*default*/
+.he_ZoomInImg {
+    background: #000;
+    width: 240px;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-album {
+    background: #000;
+    width: 240px;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg .he_ZoomInImg_img {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg:hover .he_ZoomInImg_img {
+    opacity: .7;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.he_ZoomInImg .he_ZoomInImg_caption {
+    color: #000;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg .he_ZoomInImg_caption,
+.he_ZoomInImg .he_ZoomInImg_caption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg .he_ZoomInImg_caption_p {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    opacity: 0
+}
+.he_ZoomInImg:hover .he_ZoomInImg_caption_p {
+    color: #fff;
+    opacity: 1
+}
+
+/*defaultNew 新项目里面的*/
+.he_ZoomInImgNew {
+    border-radius: 5px;
+    background: #000;
+    width: 195px;
+    height: 195px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImgNew-album {
+    background: #000;
+    width: 195px;
+    height: 195px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImgNew .he_ZoomInImgNew_img {
+    position: relative;
+    display: block;
+    width: 195px;
+    height: 195px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImgNew:hover .he_ZoomInImgNew_img {
+    opacity: .7;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.he_ZoomInImgNew .he_ZoomInImgNew_caption {
+    color: #000;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImgNew .he_ZoomInImgNew_caption,
+.he_ZoomInImgNew .he_ZoomInImgNew_caption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImgNew .he_ZoomInImgNew_caption_p {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    opacity: 0
+}
+.he_ZoomInImgNew:hover .he_ZoomInImgNew_caption_p {
+    color: #fff;
+    opacity: 1
+}
+
+/* caption */
+.he_ZoomInImg_caption_p img {
+    width: 70px;
+    height: 70px;
+}
+.he_ZoomInImg_caption_p-song img {
+    width: 30px;
+    height: 30px;
+}
+.he_ZoomInImg_caption_p-album img {
+    width: 70px;
+    height: 70px;
+}
+.he_ZoomInImg_caption_p-mv img {
+    width: 70px;
+    height: 70px;
+}
+
+/* song */
+.he_ZoomInImg-song {
+    background: #000;
+    width: 85px;
+    height: 85px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-song .he_ZoomInImg_img-song {
+    position: relative;
+    display: block;
+    width: 85px;
+    height: 85px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-song:hover .he_ZoomInImg_img-song {
+    opacity: .7;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.he_ZoomInImg-song .he_ZoomInImg_caption-song {
+    color: #000;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-song .he_ZoomInImg_caption-song,
+.he_ZoomInImg-song .he_ZoomInImg_caption-song>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-song .he_ZoomInImg_caption_p-song {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    opacity: 0
+}
+.he_ZoomInImg-song:hover .he_ZoomInImg_caption_p-song {
+    color: #fff;
+    opacity: 1
+}
+
+
+/* album */
+.he_ZoomInImg-album .he_ZoomInImg_img-album {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-album:hover .he_ZoomInImg_img-album {
+    opacity: .7;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.he_ZoomInImg-album .he_ZoomInImg_caption-album {
+    color: #000;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-album .he_ZoomInImg_caption-album,
+.he_ZoomInImg-album .he_ZoomInImg_caption-album>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-album .he_ZoomInImg_caption_p-album {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    opacity: 0
+}
+.he_ZoomInImg-album:hover .he_ZoomInImg_caption_p-album {
+    color: #fff;
+    opacity: 1
+}
+
+/*mv*/
+.he_ZoomInImg-mv:hover .he_ZoomInImg_caption_p-mv {
+    color: #fff;
+    opacity: 1
+}
+.he_ZoomInImg-mv .he_ZoomInImg_caption_p-mv {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    opacity: 0
+}
+.he_ZoomInImg-mv .he_ZoomInImg_caption-mv,
+.he_ZoomInImg-mv .he_ZoomInImg_caption-mv>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-mv {
+    background: #000;
+    width: 270px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-mv .he_ZoomInImg_img-mv {
+    position: relative;
+    display: block;
+    width: 270px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-mv:hover .he_ZoomInImg_img-mv {
+    opacity: .7;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.he_ZoomInImg-mv .he_ZoomInImg_caption-mv {
+    color: #000;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+
+/* 用户主页显示的歌单 */
+.he_ZoomInImg-usersong {
+    background: #000;
+    width: 105px;
+    height: 105px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-usersong .he_ZoomInImg_img-usersong {
+    position: relative;
+    display: block;
+    width: 105px;
+    height: 105px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-usersong:hover .he_ZoomInImg_img-usersong {
+    opacity: .7;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.he_ZoomInImg-usersong .he_ZoomInImg_caption-usersong {
+    color: #000;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-usersong .he_ZoomInImg_caption-usersong,
+.he_ZoomInImg-usersong .he_ZoomInImg_caption-usersong>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-usersong .he_ZoomInImg_caption_p-usersong {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    opacity: 0
+}
+.he_ZoomInImg-usersong:hover .he_ZoomInImg_caption_p-usersong {
+    color: #fff;
+    opacity: 1
+}
+
+
+/* 用户主页显示的MV */
+.he_ZoomInImg-usermv:hover .he_ZoomInImg_caption_p-usermv {
+    color: #fff;
+    opacity: 1
+}
+.he_ZoomInImg-usermv .he_ZoomInImg_caption_p-usermv {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+    opacity: 0
+}
+.he_ZoomInImg-usermv .he_ZoomInImg_caption-usermv,
+.he_ZoomInImg-usermv .he_ZoomInImg_caption-usermv>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-usermv {
+    background: #000;
+    width: 210px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-usermv .he_ZoomInImg_img-usermv {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+.he_ZoomInImg-usermv:hover .he_ZoomInImg_img-usermv {
+    opacity: .7;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.he_ZoomInImg-usermv .he_ZoomInImg_caption-usermv {
+    color: #000;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    overflow: hidden
+}
+
+
+
+

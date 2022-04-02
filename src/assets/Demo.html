@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>这是一个普通的html文件</title>
+    <!--    我们如果要写vue的代码引进就需要引进vue.js的文件进来-->
+    <style>
+        /* song */
+        .he_ZoomInImg-song {
+            background: #000;
+            width: 300px;
+            height: 300px;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            box-sizing: border-box;
+            cursor: pointer;
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            overflow: hidden
+        }
+        .he_ZoomInImg-song .he_ZoomInImg_img-song {
+            position: relative;
+            display: block;
+            width: 300px;
+            height: 300px;
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            overflow: hidden
+        }
+        .he_ZoomInImg-song:hover .he_ZoomInImg_img-song {
+            opacity: .7;
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1)
+        }
+        .he_ZoomInImg-song .he_ZoomInImg_caption-song {
+            color: #000;
+            -moz-backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            overflow: hidden
+        }
+        .he_ZoomInImg-song .he_ZoomInImg_caption-song,
+        .he_ZoomInImg-song .he_ZoomInImg_caption-song>a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            overflow: hidden
+        }
+        .he_ZoomInImg-song .he_ZoomInImg_caption_p-song {
+            text-align: center;
+            width: 80%;
+            position: absolute;
+            top: 35%;
+            left: 10%;
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            overflow: hidden;
+            opacity: 0
+        }
+        .he_ZoomInImg-song:hover .he_ZoomInImg_caption_p-song {
+            color: #fff;
+            opacity: 1
+        }
+    </style>
+</head>
+<body>
+<div class="he_ZoomInImg-song">
+    <img class="he_ZoomInImg_img-song"
+              src="https://y.qq.com/music/photo_new/T002R300x300M000003sj4aO3p0ENj_1.jpg?max_age=2592000" width="300px" height="300px"/>
+    <div class="he_ZoomInImg_caption-song">
+        <p class="he_ZoomInImg_caption_p-song" style="margin-bottom:0px;">
+            <img src="https://y.gtimg.cn/mediastyle/yqq/img/cover_play@2x.png?max_age=2592000&v=88abebcbc1242dbbbbc836cc3e04a006&v=88abebcbc1242dbbbbc836cc3e04a006&v=10e4305a2558d496548955434eaa30d9" width="55px" height="55px"/>
+        </p>
+        <a class="he_ZoomInImg-song_caption_a" href="#"></a>
+    </div>
+</div>
+</body>
+</html>
